@@ -75,7 +75,7 @@ description:
 
 # title of the home page (also for SEO)
 page_title:
-  "🪴 Quartz 3.3"
+  "THE BEST ILSKR DOCS"
 
 # links to show in the footer
 links:
