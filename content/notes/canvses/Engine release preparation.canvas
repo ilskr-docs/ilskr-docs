@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"type":"group","id":"90db27ab682e6165","x":-5741,"y":3840,"width":1179,"height":2640,"label":"engine release registration and push"},
+		{"type":"group","id":"be7243ca3043fd64","x":-5720,"y":-40,"width":1180,"height":900,"label":"statistics generation"},
+		{"type":"group","id":"7ae29eb4efef6ceb","x":-5718,"y":2480,"width":1178,"height":900,"label":"device engine preparation"},
+		{"type":"group","id":"f12887d0ef97ceb8","x":-5720,"y":1200,"width":1158,"height":900,"label":"pc engine preparation(client,breed,gender)"},
+		{"type":"file","file":"images/engine release preparation and push/statistics generation.md","id":"318c00394ed1fd8b","x":-5680,"y":40,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\nPretty complicated algorithms are used in script in order to be universal for each situation (a lot of data/small amount of data; bad data/good data; normally distributed data/abnormally distributed data etc) - so it can be difficult for understanding and for script settings preparation. ","id":"ada1d60b651cb052","x":-5680,"y":440,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n\n## scripts \ngenerate_statistics.py (https://shy-tuba-747.notion.site/f65a52dcd77843038a9a9d9a2160da1c)\nEngine works in several modes: fast and slow mode. \nSlow mode - all explicits of all historical data will be aggregated to calculare average and find best thresholds for filtration.\nFast mode - already aggregated mean and stdev of each cycle-house from historical data will be used to calculate average and set filtration thresholds  \n\n#ElshatAkmaev","id":"25a89bcf0ae4f36f","x":-5120,"y":440,"width":560,"height":400,"color":"5"},
+		{"type":"file","file":"images/engine release preparation and push/pc engine preparation(client,breed,gender).md","id":"d325c2bfe2ec498f","x":-5701,"y":1280,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\n\nEven in case of automatic engine packing some errors during engine work can arise due to mistakes in files etc.  As a result a noticeble amount of time can be spent on error noticing and fixing. Need to add autotests to check engine quiality and workability on the step of engine packing. ","id":"96b51432d1f68c32","x":-5701,"y":1680,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n\n\n## scripts\n\ngenerate_engine_pc.py \nhttps://shy-tuba-747.notion.site/generate_engine_pc-py-baa587b9cf6e496c9ae68f946871839d\n\n\n#ElshatAkmaev","id":"514061fc0dc88c8c","x":-5141,"y":1680,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"images/engine release preparation and push/device engine preparation.md","id":"b74fca1b49371e8b","x":-5698,"y":2560,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\n\nFinal test of engine release work is conducted on working device on farm only. Would be great to make an intermediate test in semi-automatic mode before upload it on working devices ","id":"0bbc78805963938e","x":-5698,"y":2960,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n\n## scripts \ngenerate_engine_device.py (https://shy-tuba-747.notion.site/generate_engine_device-py-36cabb991b264641a8f8ac75fae013f8)\n\n## local storaging \npc engines storage: \\\\Datasets\\chikens\\MHDR_Chicken\\workdir\npc engines results storage: \\\\Datasets\\chikens\\MHDR_Chicken\\RESULTS\ndevice engines storage: \\\\PawlinServer\\Projects\\prj\\MHDR\\BIRDOO\\Releases\n\n#ElshatAkmaev","id":"86ec5f320cf64b24","x":-5138,"y":2960,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"images/engine release preparation and push/engine release registration and push.md","id":"ba3dc0da614dc911","x":-5721,"y":3920,"width":1119,"height":2120},
+		{"type":"text","text":"# Problems\nLimited available space on Git","id":"8dd3c47938fe27e7","x":-5721,"y":6040,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n\n## scripts \nengine_push_example.py \n\n## git repo for engines storaging\n**https://gitlab.com/engine11/chickenmeasurementodroid.git**\n\n## concept \nhttps://docs.google.com/presentation/d/19pKVXP0tjMFMc02jS37lwTtgZiR2H1gaWT6Qmcl89AE/edit#slide=id.g19d02e8ecfd_0_0\n\n#AnnaSosnovskaya","id":"79dd92be7aaeaf40","x":-5161,"y":6040,"width":559,"height":400,"color":"5"}
+	],
+	"edges":[
+		{"id":"046ca574016c28e1","fromNode":"be7243ca3043fd64","fromSide":"bottom","toNode":"f12887d0ef97ceb8","toSide":"top"},
+		{"id":"5ceff4a5b90528b5","fromNode":"f12887d0ef97ceb8","fromSide":"bottom","toNode":"7ae29eb4efef6ceb","toSide":"top"},
+		{"id":"f3faa3a511c28133","fromNode":"7ae29eb4efef6ceb","fromSide":"bottom","toNode":"90db27ab682e6165","toSide":"top"}
+	]
+}

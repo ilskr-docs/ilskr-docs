@@ -1,0 +1,2 @@
+After model(s) validation it will be pushed to Postgre `birdoo` database (host: 54.68.148.17, port: 5432) & aws s3 (analytics-birdoo bucket): postgre database (in table `projection_models`)  contains related info about client, breed_type and gender and whether it's verified or not as well as the specific model parameters (input data length & prediction averaging) and, finally, model filename. All of that will be used to get the model via code to make predictions;
+[[Skrins]]

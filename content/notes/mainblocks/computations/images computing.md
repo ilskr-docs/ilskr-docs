@@ -1,0 +1,2 @@
+Engine takes images as inputs, collect all computer vision information and run different models, filtration, etc. After that perform tracking and generate rolled files. If engine settings require model’s application and statistical filtration of rolled files, perform it
+[[images computing_more.canvas]]

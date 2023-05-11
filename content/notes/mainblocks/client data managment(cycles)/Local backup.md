@@ -1,0 +1,1 @@
+xlsx files with client info stored on local servers. Have pack of scripts for local storage and DB synchronization. Plan to move fully to DB someday. Although now this bakup helps to recover vital data if something happened to PostgreDB (rescue several times) 

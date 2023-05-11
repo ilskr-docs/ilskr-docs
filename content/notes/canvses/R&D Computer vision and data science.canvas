@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"group","id":"ce176f90d1c5bf83","x":-2259,"y":-140,"width":1159,"height":840,"label":"computer vision"},
+		{"type":"group","id":"c24442d1a3c957a4","x":-740,"y":-140,"width":1159,"height":840,"label":"data science"},
+		{"type":"text","text":"# Problems\nIt takes too long time to compute required pack of images. \nOld images are limited usable due to lack of realsense logs which are neccessary for proper recomputations.","id":"a9842d1727a6f8c2","x":-2239,"y":280,"width":560,"height":400,"color":"1"},
+		{"type":"file","file":"images/R&D computer vision or data science/computer vision.md","id":"c9a80c605d2a5ff6","x":-2239,"y":-120,"width":1119,"height":400},
+		{"type":"text","text":"#  Peculiarities\n\n## scripts \n[[images computing]]\n[[Engine output monitoring]]\n[[Density or Mass models training]]\n\n\n## images storaging \n\\\\Datachicken\\chickens\\DATA\\\n\n#ElshatAkmaev #AlinaRadaeva #PashaKazantsev","id":"17cd0a5873551df3","x":-1679,"y":280,"width":559,"height":400,"color":"5"},
+		{"type":"text","text":"# Problems","id":"37f2dbf2069dd5c1","x":-720,"y":280,"width":560,"height":400,"color":"1"},
+		{"type":"file","file":"images/R&D computer vision or data science/data science.md","id":"85cb161527443f56","x":-720,"y":-120,"width":1119,"height":400},
+		{"type":"text","text":"#  Peculiarities\n\n## other modules are used\n\n[[explicits and rolled rescoring(full mode, fast mode)]]\n[[Engine output monitoring]]\n[[Data sets preparation (work with big data).canvas]]\n[[Density or Mass models training.canvas]]\n\n#AnnaSosnovskaya #AlinaRadaeva #AnastasiaPshechinko #MikhailChervonenkis","id":"1d48d449a3f7af85","x":-160,"y":280,"width":559,"height":400,"color":"5"}
+	],
+	"edges":[]
+}

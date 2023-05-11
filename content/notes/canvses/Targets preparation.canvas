@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"type":"group","id":"0c91fde8af617023","x":1990,"y":-120,"width":1290,"height":987,"label":"targets generation"},
+		{"type":"group","id":"b13bb47b2ac2a10c","x":1990,"y":-1360,"width":1290,"height":960,"label":"piwfha generation"},
+		{"type":"group","id":"48fb45c3a6f6a6b7","x":2010,"y":-2560,"width":1270,"height":920,"label":"web-interface for data insert with pack of autohecks"},
+		{"type":"group","id":"7f4ce8937708d1d7","x":1990,"y":1400,"width":1290,"height":920,"label":"targets check and cleaning from outliers"},
+		{"type":"file","file":"images/targets preparation/Targets generation.md","id":"8d05d0a85c14f16a","x":2010,"y":-100,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\n\nIf you are generating cycle and and in file targets_new was page with Cycle 1 - use after the updater skript for make equal local sourse file OR SAVE OLD targets file and concatinate it with output after","id":"d4df1cb44a8d743d","x":2010,"y":300,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nProcess is automated and fast. \nIf you noticed that PIWFHA not enough reliable , and you want only change PIWFHA and update likely:\n\n-   **combine_targets_spline.py** _weight_sources_  = [Targets, PIWFHA] ( to create\\update target and generate generate new likely ). Instruction: https://shy-tuba-747.notion.site/combine_targets_spline-1ce048ef1a394bcaae16be309e1f98f0 \n\nAnd if you noticed that just likely weights looks not enough reliable, and you need to generate likely only\n\n-   **generate_likely_only.py** . Instruction: https://shy-tuba-747.notion.site/combine_targets_simple-py-219b025e25fe41e98d9a6bc19e78688a\n\nweight|prefix/postfix|whitch table able check values\n------------ | ------------|------------------------\nManual/Farmers|Mahender_raw|all_weights(view)\nTargets|Manual_measure_target_new|all_weights(view)\nLikely|adjusted_std_weights_all_weights(view)\n\n\n\n\n\n\n\n\n","id":"cf3a245685a06fef","x":2570,"y":300,"width":650,"height":540,"color":"5"},
+		{"type":"file","file":"images/targets preparation/targets check and cleaning from outliers.md","id":"830b48498b3f8ba9","x":2010,"y":1420,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\nNot all problems can be detected at once\n","id":"5fcc04f2c2ab5ef2","x":2010,"y":1820,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nthe process is manual the duration is average\n##  Script\nintepolation_outliers_search.py (https://shy-tuba-747.notion.site/interpolation_outliers_search-py-c347d9ebac32431d8b8a597bbc72e7df)","id":"a2bab5285838b117","x":2569,"y":1820,"width":560,"height":400,"color":"5"},
+		{"type":"file","file":"images/targets preparation/web-interface for data insert with pack of autohecks.md","id":"8b27ba6233ae7440","x":2081,"y":-2520,"width":1119,"height":420},
+		{"type":"text","text":"# Problems\nAccuracy is important\nProblems with timely data provision (big delay between cycle end and clients data appearence. Sometime no data is appeared at all)","id":"df9e256af934ef8e","x":2080,"y":-2100,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nhttp://34.216.167.184:5012/#/ - web interface link\n\nthe process on our part is fast\n\n## scripts\nproject of the interface: https://gitlab.com/pawlin_birdoo/slt-server","id":"fa45d1d0b4f2bfd3","x":2640,"y":-2100,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"images/targets preparation/piwfha generation.md","id":"1b2e68ee494e3cde","x":2080,"y":-1280,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\nCare is needed when driving in data because the result is very sensitive to input data","id":"2caa856522626c2a","x":2080,"y":-880,"width":520,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n\n## scripts \ngenerate_piwfa_safe.py (https://shy-tuba-747.notion.site/generate_piwfa_safe-py-b3668e4a86cb495880ac1e9c8bd6d575)","id":"20e60321a836dcf1","x":2601,"y":-880,"width":598,"height":400,"color":"5"}
+	],
+	"edges":[
+		{"id":"32db22ace1812abe","fromNode":"48fb45c3a6f6a6b7","fromSide":"bottom","toNode":"b13bb47b2ac2a10c","toSide":"top","label":"data"},
+		{"id":"666450f4e3efc068","fromNode":"b13bb47b2ac2a10c","fromSide":"bottom","toNode":"0c91fde8af617023","toSide":"top","label":"Piwfha"},
+		{"id":"70e0b8f3d8807fdd","fromNode":"0c91fde8af617023","fromSide":"bottom","toNode":"7f4ce8937708d1d7","toSide":"top","label":"full_new targets"},
+		{"id":"0dad2811fb4a60e1","fromNode":"7f4ce8937708d1d7","fromSide":"right","toNode":"0c91fde8af617023","toSide":"right","color":"1","label":"if outlier was found"}
+	]
+}

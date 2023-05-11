@@ -1,0 +1,1 @@
+Addition of artificial examples and restriction on possible values. Strong regularization is required in case of small and questionable data. Light regularization is required when data is pretty representative (close to full coverege of all possible cases inside client) so need to wide data by artificial examples just a little bit.

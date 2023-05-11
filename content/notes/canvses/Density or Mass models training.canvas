@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"type":"group","id":"5fb6789e7f1808fa","x":-1080,"y":-1280,"width":1262,"height":1240,"label":"scoring,chosen of the best model based on metrics and expertise, results comparison"},
+		{"type":"group","id":"7af9da034f01bff3","x":-1040,"y":-2440,"width":1260,"height":840,"label":"model training pipeline"},
+		{"type":"group","id":"ea126ff1022390ed","x":-1082,"y":-3680,"width":1259,"height":840,"label":"interface for models experiments generation"},
+		{"type":"group","id":"a48ae5cbac5f0a31","x":-1020,"y":620,"width":1262,"height":840,"label":"models version tracking and storaging"},
+		{"type":"text","text":"","id":"d49f70790696d2a5","x":-2260,"y":-3980,"width":200,"height":3140,"color":"1"},
+		{"type":"text","text":"# Problems","id":"ea5716203830c37b","x":-1060,"y":-720,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nAn automated process, but since it is critically important for the project, human control is required\nCan be used for model validation and experiments\n## Scoring\nScript: DataGenerators/GNOM/ZBAGE/compare_individuals_and_union.py\n\nDocumentation:\n\n[](http://34.216.167.184:5012/assets/doc/BIRDOOManagerDoc/ai_models/density_model/score_with_new_density_model.html)[http://34.216.167.184:5012/assets/doc/BIRDOOManagerDoc/ai_models/density_model/score_with_new_density_model.html](http://34.216.167.184:5012/assets/doc/BIRDOOManagerDoc/ai_models/density_model/score_with_new_density_model.html)\n## Choosing best model\nScript: DataGenerators/GNOM/ZBAGE/utils/get_summary_from_db.py\nConfig:\n\n[get_summary_from_db_config.yaml](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be7587d7-62e2-474e-a5b8-5cc98ed69909/get_summary_from_db_config.yaml)\n\nchoosing the best density model by specified metrics for target client, breed_type, gender combination","id":"aebd998b27ee97e3","x":-500,"y":-720,"width":559,"height":640,"color":"5"},
+		{"type":"file","file":"mainblocks/density or mass models training/models version tracking and storaging.md","id":"87514ce19c5291ec","x":-1000,"y":640,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\n","id":"47fbe3290b1b8229","x":-1000,"y":1040,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nScript: DataGenerators/GNOM/ZBAGE/utils/push2server.py\n\nConfig:\n\n[push2server_config.yaml](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bca7a1b-b1c1-432e-9e66-a415c4c66a02/push2server_config.yaml)\n\nPush best model to server an generate density module that could be used in engine.\n### Server dir for density models:\n\n\\\\datasets\\chikens\\MHDR_Chicken\\sources\\DensityModels\n\n","id":"ae4591aece928d62","x":-440,"y":1040,"width":560,"height":400,"color":"5"},
+		{"type":"text","text":"# Problems\nRequires attention before starting training","id":"47bc2230859dd529","x":-1020,"y":-2020,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nlong automated process\nTraining of a model with different parameters is required\n\n## scripts\nDataGenerators/GNOM/ZBAGE/zbage_pipeline_python.py (https://www.notion.so/Density-model-training-b0f3625a02ea448c9089b07ce7ab7415)","id":"9245a37308a864e7","x":-460,"y":-2020,"width":561,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/density or mass models training/model training pipeline.md","id":"547d38b2ebdb4053","x":-1020,"y":-2420,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\nDifficult for new people to master","id":"8b2f5ca78dc6ab22","x":-1062,"y":-3260,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nUsing the interface made it possible to reduce the number of errors when creating a configuration file with handles\nThe ability to distribute training across multiple computers\n","id":"b96b62e7c7a310d3","x":-502,"y":-3260,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/density or mass models training/interface for models experiments generation.md","id":"5ee60e2be8171136","x":-1062,"y":-3660,"width":1119,"height":400},
+		{"type":"file","file":"mainblocks/density or mass models training/scoring,chosen of the best model based on metrics and expertise, results comparison.md","id":"dd1fd603ef1b6448","x":-1060,"y":-1240,"width":1119,"height":520}
+	],
+	"edges":[
+		{"id":"d3601acf75047a9d","fromNode":"ea126ff1022390ed","fromSide":"bottom","toNode":"547d38b2ebdb4053","toSide":"top","label":"training parameters"},
+		{"id":"b7e977d872b63315","fromNode":"7af9da034f01bff3","fromSide":"bottom","toNode":"5fb6789e7f1808fa","toSide":"top","label":"several variants of trained models"},
+		{"id":"6eadfaf9df0cfdad","fromNode":"5fb6789e7f1808fa","fromSide":"bottom","toNode":"87514ce19c5291ec","toSide":"top","label":"final model"},
+		{"id":"c9a61bb58af44657","fromNode":"5fb6789e7f1808fa","fromSide":"left","toNode":"d49f70790696d2a5","toSide":"bottom","color":"1","label":"If problems are detected, you need to go through everything again"},
+		{"id":"f8716ca01dded795","fromNode":"7af9da034f01bff3","fromSide":"left","toNode":"d49f70790696d2a5","toSide":"right","color":"1","label":"If problems are detected, you need to go through everything again"},
+		{"id":"fb96a0370098985d","fromNode":"d49f70790696d2a5","fromSide":"top","toNode":"ea126ff1022390ed","toSide":"top","color":"1"}
+	]
+}

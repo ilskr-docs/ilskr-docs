@@ -1,0 +1,1 @@
+regular check results from devices, especially mass results. It allows to notice abnormal cases and do recalibration engine. (does with get_raw_feature script)

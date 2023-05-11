@@ -1,0 +1,2 @@
+After choosing required model architectures and specific parameters are set for given client, breed type and gender we get bunch of models with the best one selected by weighted sum of sum metrics/errors like overall accuracy, percentage of cycle-houses-day with error less than given threshold (say, 2%), stability of predictions and its visual behaviour; validation may take ome extra time due to additional checks; 
+[[Choosing the best model]]

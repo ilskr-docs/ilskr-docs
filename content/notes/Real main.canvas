@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"type":"text","text":"Data management and analysis\n\n[[main.canvas]]\n","id":"60e8ed978527fd3f","x":-568,"y":-416,"width":288,"height":196,"color":"1"},
+		{"type":"text","text":"Engine results monitoring\n[[main.canvas]]\n","id":"17d3603a6398a288","x":157,"y":52,"width":250,"height":108,"color":"5"},
+		{"type":"text","text":"Engine development and packing\n[[main.canvas]]\n","id":"795b687d3ca110a2","x":32,"y":-416,"width":308,"height":216,"color":"4"},
+		{"type":"text","text":"other models and R&D\n[[main.canvas]]\n","id":"df9837293a40ca43","x":-500,"y":-40,"width":280,"height":122,"color":"6"}
+	],
+	"edges":[
+		{"id":"349c5bb6efe17e47","fromNode":"60e8ed978527fd3f","fromSide":"right","toNode":"795b687d3ca110a2","toSide":"left"},
+		{"id":"6d7d862c127ecb3a","fromNode":"60e8ed978527fd3f","fromSide":"bottom","toNode":"df9837293a40ca43","toSide":"top"},
+		{"id":"a6411fb98bd5e17a","fromNode":"df9837293a40ca43","fromSide":"right","toNode":"17d3603a6398a288","toSide":"left"},
+		{"id":"026e04046bb8e73d","fromNode":"795b687d3ca110a2","fromSide":"bottom","toNode":"17d3603a6398a288","toSide":"top"}
+	]
+}

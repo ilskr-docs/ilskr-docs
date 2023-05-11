@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"group","id":"779b0f50934eddd3","x":-1180,"y":-297,"width":1414,"height":785,"label":"Output"},
+		{"type":"file","file":"mainblocks/density or mass models training/Model training pipline/Pasted image 20230420130604.png","id":"144a0e5772099c36","x":-380,"y":-240,"width":594,"height":671},
+		{"type":"text","text":"tmp_pipeline_config.yaml - src config, initial settings\n\npipeline_config_after_train.yaml - final train settings\n\ncollected_df.csv - src train dataset\n\nextrapolated_df.csv - extrapolated src train df\n\n### filtration:\n\nfiltration_summary.csv - info which houses were filtered on which stage\n\n### c-vector model:\n\nmodel.net\n\nfeaturemask .txt\n\nconfig - train settings\n\ntrain/validation/test datasets\n\n### zbage model:\n\nmodel.net\n\nfeaturemask .txt\n\nconfig - train settings\n\ntrain/validation/test datasets\n\nbage_vis - folder with interactive plots to control density model behaviour","id":"5dc547e4a4ae31bc","x":-1160,"y":-277,"width":573,"height":745},
+		{"type":"file","file":"mainblocks/density or mass models training/Model training pipline/It shows how density depends on volume and age.png","id":"e4780ac40dab8f32","x":-1160,"y":520,"width":1398,"height":700}
+	],
+	"edges":[]
+}

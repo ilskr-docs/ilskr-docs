@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "8630f1d61b995bc0",
+    "type": "split",
+    "children": [
+      {
+        "id": "db9b1d46350af157",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d71b978e2f33b30",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "main.canvas",
+                "viewState": {
+                  "x": -591.0032189330373,
+                  "y": -3003.0205194588243,
+                  "zoom": -0.6217317004774777
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a434d335d4f956ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "978fa52e1c6cff8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84590ec4ecb8f63b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "ba25f2e219da1d2b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "web",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cccd515a2104ed33",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a01a9efc29314690",
+    "type": "split",
+    "children": [
+      {
+        "id": "f638538c7f7c0b52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d6ce7dd14f52220",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "main.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbb2d32ad217ba72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "main.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f91c378248a0f876",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8e5028967e536ad0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "main.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4d71b978e2f33b30",
+  "lastOpenFiles": [
+    "canvses/App projection.canvas",
+    "main.canvas",
+    "canvses/Engine output monitroing.canvas",
+    "canvses/Engine release preparation.canvas",
+    "canvses/Computations(engine run though python).canvas",
+    "canvses/Density or Mass models training.canvas",
+    "mainblocks/density or mass models training/Scroling,chosen/Scroling.canvas",
+    "mainblocks/density or mass models training/Model training pipline/output.canvas",
+    "canvses/Data sets preparation (work with big data).canvas",
+    "Pasted image 20230426175004.png",
+    "Pasted image 20230426174127.png",
+    "Pasted image 20230426173250.png",
+    "Pasted image 20230426173203.png",
+    "Pasted image 20230426173036.png",
+    "mainblocks/datasets preparation/data_colletion/collect_dataset.py.canvas",
+    "mainblocks/datasets preparation/filtration.md",
+    "mainblocks/datasets preparation/data_check/ways of analysis.canvas",
+    "images/targets preparation/web-interface for data insert with pack of autohecks.md",
+    "mainblocks/datasets preparation/data_colletion/Pasted image 20230426121108.png",
+    "Pasted image 20230426121106.png",
+    "mainblocks/datasets preparation/data_colletion/Pasted image 20230426114951.png",
+    "mainblocks/datasets preparation/data_colletion",
+    "images/Pasted image 20230426113327.png",
+    "images/Pasted image 20230426113317.png",
+    "images",
+    "mainblocks/computations/explicits and rolled rescoring(full mode, fast mode).md",
+    "mainblocks/app projection/picture/Choosing the best model.md",
+    "mainblocks/datasets preparation/data check.md",
+    "mainblocks/density or mass models training/Scroling,chosen/Pipeline.md",
+    "biordo/mainblocks/density or mass models training/Scroling,chosen/Pipeline.md",
+    "biordo/mainblocks/density or mass models training/Scroling,chosen/Output.md",
+    "biordo/mainblocks/density or mass models training/Scroling,chosen/Metrics.md",
+    "biordo/mainblocks/density or mass models training/Scroling,chosen/Input.md",
+    "biordo/mainblocks/app projection/picture/Выбор лучшей модели.md",
+    "biordo/mainblocks/app projection/picture/Skrins.md",
+    "biordo/mainblocks/targets preparation/web-interface for data insertwith pack of autohecks.md",
+    "biordo/mainblocks/targets preparation/Targets generation.md",
+    "biordo/mainblocks/targets preparation/targets check and cleaning from outliers.md",
+    "biordo/mainblocks/targets preparation/piwfha generation.md",
+    "biordo/mainblocks/targets preparation/picture",
+    "biordo/mainblocks/R&D computer vision or data science/data science.md",
+    "biordo/mainblocks/R&D computer vision or data science/computer vision.md",
+    "biordo/mainblocks/engine release preparation and push/statistics generation.md",
+    "biordo/mainblocks/engine release preparation and push/picture",
+    "biordo/mainblocks/engine release preparation and push/pc engine preparation(client,breed,gender).md",
+    "biordo/mainblocks/engine release preparation and push/engine release registration and push.md",
+    "biordo/mainblocks/engine release preparation and push/device engine preparation.md",
+    "biordo/mainblocks/engine output monitoring/pc scores preparation.md",
+    "biordo/mainblocks/engine output monitoring/distributions.md",
+    "biordo/mainblocks/engine output monitoring/datapoints preparation.md",
+    "biordo/mainblocks/density or mass models training/Scroling,chosen",
+    "biordo/mainblocks/density or mass models training/Model training pipline",
+    "biordo/mainblocks/datasets preparation/data_check",
+    "biordo/mainblocks/computations/Telebot",
+    "biordo/mainblocks/app projection/picture",
+    "biordo/mainblocks/targets preparation"
+  ]
+}

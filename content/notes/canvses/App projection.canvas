@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"type":"group","id":"38dffcad373717be","x":-1452,"y":580,"width":1159,"height":840,"label":"runnning on the cloud"},
+		{"type":"group","id":"493672c9bd757ffc","x":-2059,"y":-1220,"width":1159,"height":620,"label":"training pipeline"},
+		{"type":"group","id":"b1b02ad4e6d89a19","x":-1480,"y":-220,"width":1187,"height":500,"label":"models storaging in DB"},
+		{"type":"text","text":" Expert review","id":"9726889d90ec4cc6","x":-1080,"y":-420,"width":305,"height":80},
+		{"type":"file","file":"mainblocks/app projection/training pipeline.md","id":"b700d3c8c0b995a1","x":-2039,"y":-1200,"width":1119,"height":220},
+		{"type":"text","text":"# Problems\n\n1. Due to the lack of automation, the process is highly dependent on input data\n2. Limitation of the library version due to the fact that the models obtained before the start of development were saved in pickle format, which is why they could only be unpacked by the environment with the version of the library used from which they were originally obtained.","id":"270cbb532bfe7b3e","x":-2039,"y":-980,"width":560,"height":340,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nfast semi-automated process","id":"a6ca6bacd3a8c665","x":-1479,"y":-980,"width":559,"height":340,"color":"5"},
+		{"type":"file","file":"mainblocks/app projection/models storaging in DB.md","id":"72754d4169598af6","x":-1460,"y":-200,"width":1119,"height":220},
+		{"type":"text","text":"# Problems\nTechnical problems with a long connection in the database","id":"3fd221a402c56b2a","x":-1460,"y":20,"width":560,"height":240,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nautomated process fast process\n\nIn the analytics-bird/production_models folder there are models, and each model is in the corresponding structure: client/breed/gender","id":"f6a0c9d0769564be","x":-900,"y":20,"width":559,"height":240,"color":"5"},
+		{"type":"file","file":"mainblocks/app projection/runnning on the cloud.md","id":"b59b68766082f72f","x":-1432,"y":600,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\n\n","id":"1acf6cd1d4f8837b","x":-1432,"y":1000,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities","id":"b9b70983582880eb","x":-872,"y":1000,"width":559,"height":400,"color":"5"}
+	],
+	"edges":[
+		{"id":"1253e29d348cb9d9","fromNode":"493672c9bd757ffc","fromSide":"bottom","toNode":"9726889d90ec4cc6","toSide":"top"},
+		{"id":"edc5d0daaf710dff","fromNode":"9726889d90ec4cc6","fromSide":"right","toNode":"493672c9bd757ffc","toSide":"right","color":"1","label":"Retrain the neural network"},
+		{"id":"f143bd26476e9971","fromNode":"b1b02ad4e6d89a19","fromSide":"bottom","toNode":"38dffcad373717be","toSide":"top","label":"neural network model from the database"},
+		{"id":"3740a02fd07538a4","fromNode":"9726889d90ec4cc6","fromSide":"bottom","toNode":"b1b02ad4e6d89a19","toSide":"top","color":"4"}
+	]
+}

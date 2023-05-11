@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"type":"group","id":"48fe733621e71468","x":2100,"y":-520,"width":1260,"height":665,"label":"Metrics storing"},
+		{"type":"group","id":"4c1b9e7847e5f04a","x":-580,"y":-340,"width":1501,"height":440,"label":"Output"},
+		{"type":"file","file":"mainblocks/density or mass models training/Scroling,chosen/Pasted image 20230420141030.png","id":"157099efee19addf","x":-560,"y":-320,"width":397,"height":400},
+		{"type":"file","file":"mainblocks/density or mass models training/Scroling,chosen/Input.md","id":"c89c5ed486b9e2c9","x":-20,"y":-1120,"width":400,"height":400},
+		{"type":"text","text":"# Process","id":"6efa120461f14d48","x":82,"y":-563,"width":197,"height":87},
+		{"type":"file","file":"mainblocks/density or mass models training/Scroling,chosen/Output.md","id":"bfe5c4502dc862dc","x":-19,"y":-320,"width":400,"height":400},
+		{"type":"file","file":"images/Pasted image 20230420141931.png","id":"244231f72de8e711","x":540,"y":-320,"width":361,"height":400},
+		{"type":"text","text":"### Metrics from all machines that run train experiments send metrics to union database.","id":"f0f5a5fa75800e32","x":2120,"y":-500,"width":320,"height":220},
+		{"type":"file","file":"mainblocks/density or mass models training/Scroling,chosen/Metrics.md","id":"937ef9494c377abd","x":1320,"y":-320,"width":400,"height":420},
+		{"type":"text","text":"[Evaluation](Pipeline)","id":"5b665621aeda349b","x":1395,"y":320,"width":250,"height":60},
+		{"type":"file","file":"images/Pasted image 20230420142809.png","id":"f2e7acec3977c25d","x":2520,"y":-500,"width":820,"height":625}
+	],
+	"edges":[
+		{"id":"ade9dcda355fce02","fromNode":"c89c5ed486b9e2c9","fromSide":"bottom","toNode":"6efa120461f14d48","toSide":"top"},
+		{"id":"82d32fbdb0b95372","fromNode":"6efa120461f14d48","fromSide":"bottom","toNode":"bfe5c4502dc862dc","toSide":"top"},
+		{"id":"02e9bb419883602e","fromNode":"4c1b9e7847e5f04a","fromSide":"right","toNode":"937ef9494c377abd","toSide":"left"},
+		{"id":"42b2793241cccd8a","fromNode":"937ef9494c377abd","fromSide":"bottom","toNode":"5b665621aeda349b","toSide":"top"}
+	]
+}

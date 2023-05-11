@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"type":"group","id":"8a5e7d24595a414a","x":3360,"y":2880,"width":1300,"height":1460,"label":"data storaging on servers"},
+		{"type":"group","id":"5bec63bbc59d7f6b","x":3340,"y":1640,"width":1320,"height":1020,"label":" data compression"},
+		{"type":"group","id":"4cce4c66af873d48","x":2440,"y":-780,"width":1280,"height":1030,"label":"Downloading from GoogleDrive"},
+		{"type":"group","id":"56162af1ac8da505","x":4340,"y":-740,"width":1320,"height":990,"label":"Downloading from AWS"},
+		{"type":"group","id":"d3403d9f04bf0028","x":3340,"y":500,"width":1281,"height":880,"label":"data check(bad or old explicits)"},
+		{"type":"file","file":"images/Downloading from GoogleDrive.md","id":"6594ea7e1214395f","x":2500,"y":-700,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\n\nIt takes a lot of time due to weak internet\nProblems with space storaging on GoogleDrive","id":"1d6ad2525b7f914a","x":2501,"y":-300,"width":559,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n\ndownloading is running through Telebot (https://shy-tuba-747.notion.site/download-bfd234b7b0364ed780a7245984ed9a4f)\n## scripts \n\nGoogleDownloader.py \nmutly_thread_google_downloader.py\n","id":"a58bbd9f3928138a","x":3060,"y":-300,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"images/data check(bad or old explicits).md","id":"a3238ddb85e2d228","x":3380,"y":560,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\n It takes a lot of time due to weak internet. \n It's allowed to store on S3 only past 2 cycles (not all data)","id":"17740610be8e3c63","x":4380,"y":-270,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n\ndownloading is running through Telebot \n## scripts \n\nAWSDownloader.py \nmutly_thread_aws_downloader.py","id":"324d98eea0dd4995","x":4940,"y":-270,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"images/downloading from AWS.md","id":"98be42bb0b66fce8","x":4380,"y":-700,"width":1119,"height":430},
+		{"type":"text","text":"# Problems\n## ","id":"87b3c748ccf9ad5c","x":3380,"y":960,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n\nall checks and cleaners are added insed downloading scripts (AWSDownloader.py  and GoogleDownloader.py)","id":"47ee9362bb740a90","x":3940,"y":960,"width":559,"height":400,"color":"5"},
+		{"type":"text","text":"# Problems","id":"afdb5664adfd67bf","x":3380,"y":2100,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n\n## scripts\nthe script lies in birdoo-data-manager/tools/explicits/converter.py\n","id":"d7304a460a5c052d","x":3940,"y":2100,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"images/data compression.md","id":"15cff672fef970cf","x":3380,"y":1700,"width":1119,"height":400},
+		{"type":"file","file":"images/data stroaging on servers.md","id":"c88a3de455cf8fbb","x":3380,"y":2900,"width":1120,"height":920},
+		{"type":"text","text":"#  Peculiarities","id":"ac7de1bbb7764fb5","x":3960,"y":3840,"width":559,"height":400,"color":"5"},
+		{"type":"text","text":"# Problems\n\nLimited space on local servers ","id":"8647f9f1f8be45d2","x":3400,"y":3840,"width":560,"height":400,"color":"1"}
+	],
+	"edges":[
+		{"id":"cc0b8697172f00cf","fromNode":"d3403d9f04bf0028","fromSide":"bottom","toNode":"5bec63bbc59d7f6b","toSide":"top","label":"checked data"},
+		{"id":"015c6c48ec39fe49","fromNode":"5bec63bbc59d7f6b","fromSide":"bottom","toNode":"8a5e7d24595a414a","toSide":"top","label":"compressed data\n"},
+		{"id":"825f46f414e7c0e5","fromNode":"56162af1ac8da505","fromSide":"bottom","toNode":"d3403d9f04bf0028","toSide":"top","label":"data"},
+		{"id":"d6ef548a0d85343d","fromNode":"4cce4c66af873d48","fromSide":"bottom","toNode":"d3403d9f04bf0028","toSide":"top","label":"data"}
+	]
+}

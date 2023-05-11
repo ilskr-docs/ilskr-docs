@@ -1,0 +1,3 @@
+Cycle-houses info (client, farm, cycle, house, breed, gender, hatch date) registration in the Postgres DB with which all processes is working with...
+#AlinaRadaeva #AnnaSosnovskaya #ElshatAkmaev #AnastasiaPshechinko
+[[client daata management.canvas]]

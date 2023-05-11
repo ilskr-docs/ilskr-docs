@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"type":"group","id":"85dafbff54c999d0","x":-720,"y":-160,"width":1159,"height":840,"label":"explicits and rolled rescoring(full mode, fast mode)"},
+		{"type":"group","id":"8284a42eef3d24ce","x":-2300,"y":-140,"width":1159,"height":840,"label":"images computing"},
+		{"type":"group","id":"65c693cdcff936c8","x":998,"y":-160,"width":1159,"height":840,"label":"parallel work of several computers,Telebot"},
+		{"type":"file","file":"mainblocks/computations/explicits and rolled rescoring(full mode, fast mode).md","id":"9e8f69b65613db80","x":-700,"y":-140,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\n1. When introducing conceptually new features that use computer vision, they cannot be obtained using this process\n2. The problem of data storage\n","id":"20d4ff9dd99dcdbb","x":-700,"y":260,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nFull mode - we use it when changing the engine (everything except density)\nfast mode- we use an automated process with minor changes in\nthe fast engine\n\n## scripts \nuse_resotre_tool.py\nmulty_thread_restore.py (to run through Telebot)","id":"ade8fb3b5e2f22c4","x":-140,"y":260,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/computations/parallel work of several computers,Telebot.md","id":"24bc87a19be318f0","x":1018,"y":-140,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\nthere are restrictions on simultaneous operation and the number of messages sent\n","id":"c7f9712cc91fbb5a","x":1018,"y":260,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nlaunched from anywhere at any time via telegram, the execution result and progress are also displayed in the telegram message.\n\n## scripts \nTelebot.py","id":"00eda5857af9a23f","x":1578,"y":260,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/computations/images computing.md","id":"3512b5c089172215","x":-2280,"y":-120,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\nIt is impossible to start recalculation if there are no parameters at which images were received","id":"59b0811865efae95","x":-2280,"y":280,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nLong automated process\n\n## scripts\nengine_full_run.py \nmulty_thread_engine_full_run.py (to run through Telebot)","id":"9b76934f979f37da","x":-1720,"y":280,"width":559,"height":400,"color":"5"}
+	],
+	"edges":[]
+}

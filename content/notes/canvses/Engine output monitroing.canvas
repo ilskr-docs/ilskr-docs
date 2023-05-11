@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"type":"group","id":"88fe66c33c12f14d","x":-4480,"y":430,"width":1159,"height":860,"label":"pc scores preparation"},
+		{"type":"group","id":"ee2e0b691d5b8090","x":-6040,"y":440,"width":1159,"height":840,"label":"cycle normality check(comparison with calibration data)"},
+		{"type":"group","id":"3595c598f8b1d19a","x":-1400,"y":440,"width":1159,"height":840,"label":"datapoints preparation"},
+		{"type":"group","id":"bc5c13610923fa02","x":-3000,"y":440,"width":1159,"height":840,"label":"distributions checks"},
+		{"type":"text","text":"#  Peculiarities\n- Manual work to estimate\n\n## Skript\nget_raw_features.py\nhttps://shy-tuba-747.notion.site/get_raw_feature-py-7de27f80084f4b85a2230b040bb052aa\n","id":"61172094bb624aa0","x":-3900,"y":870,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"images/engine output monitoring/pc scores preparation.md","id":"9fd5ed2e5de37352","x":-4460,"y":470,"width":1119,"height":400},
+		{"type":"text","text":"# Problems  \n\n\n","id":"12cd4b56a306edcf","x":-4460,"y":870,"width":560,"height":400,"color":"1"},
+		{"type":"file","file":"images/engine output monitoring/distributions.md","id":"2253d6141e3ed75d","x":-2980,"y":460,"width":1119,"height":400},
+		{"type":"file","file":"images/engine output monitoring/cycle normality check.md","id":"b3abf9fa81717903","x":-6020,"y":460,"width":1119,"height":400},
+		{"type":"text","text":"#  Peculiarities\n## Skript\nmahalanobis_report_simple.py\n\nField Work check list: https://shy-tuba-747.notion.site/FIELD-WORK-check-list-53d8ddaf9f5349979f7759cac3afc3c9#32a090fc10434c1b9cee7eb1976076d1","id":"6f40424a3c6122ba","x":-5460,"y":860,"width":559,"height":400,"color":"5"},
+		{"type":"text","text":"# Problems\nvery sensetive settings of script for it work correctly ","id":"f152b723838a3565","x":-6020,"y":860,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"# Problems","id":"2b45f52e43087083","x":-2980,"y":860,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nManual work\n## Skript\ncompare_distributions_custom.py (https://shy-tuba-747.notion.site/compare_distributions_custom-py-0db387c07e1d499e88249871ea083613)","id":"c81cbab22e2ba90d","x":-2420,"y":860,"width":559,"height":400,"color":"5"},
+		{"type":"text","text":"# Problems","id":"701b3c6be92d3e65","x":-1380,"y":860,"width":560,"height":400,"color":"1"},
+		{"type":"file","file":"images/engine output monitoring/datapoints preparation.md","id":"09af448d5102123c","x":-1380,"y":460,"width":1119,"height":400},
+		{"type":"text","text":"#  Peculiarities\nManual work\n## Skript\ngenerate_data_points_target_weight.py (https://shy-tuba-747.notion.site/generate_data_points_target_weight-py-d3fe6910ff7f43259c4bba2dc23d95a5)","id":"97cb26ea79dcf55b","x":-820,"y":860,"width":559,"height":400,"color":"5"}
+	],
+	"edges":[]
+}
