@@ -1,3 +1,5 @@
+# FIXME
+
 -   Initialize config from config file
 -   Load all metrics from PostgresDB for specified params:
     -   datasets of interest (usually full)
