@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"type":"group","id":"d81cc6ee16983fce","x":-1060,"y":9,"width":1159,"height":840,"label":"DataBase"},
+		{"type":"group","id":"90d49f74550f9cf0","x":579,"y":9,"width":1159,"height":840,"label":"Local backup"},
+		{"type":"group","id":"4f5dbad1f2cd3400","x":2098,"y":9,"width":1159,"height":840,"label":"new cycles registration"},
+		{"type":"text","text":"# Problems\n\n- Partial synchronization with Mongo DB only \n- Current PostgreSQL has limited amount of one-time connections. As it's manully hosted on ec2 aws machine - it's not available pretty often \n- Long ping (probably because ping to PostgreSQL is set in common queue to ec2 recources)","id":"9614576e31201633","x":-1040,"y":429,"width":560,"height":400,"color":"1"},
+		{"type":"file","file":"mainblocks/client data managment(cycles)/DataBase.md","id":"748787a3e5e3ed9a","x":-1040,"y":29,"width":1119,"height":400},
+		{"type":"text","text":"#  Peculiarities\nCommon Cycle Name, Farm short name - only Postgres entity, not synchronized with Mongo DB\n\n## scripts\n*for DB and local storage synchonization:*\ndatabase/updater.py \nUtils/TargetWeightsGeneration/check_if_storages_are_equal.py\nBIRDOO_IP/storages/actual_clients_info_storage/utils/transfer_data.py\n","id":"6069a1cbc7e05141","x":-480,"y":429,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/client data managment(cycles)/Local backup.md","id":"6df626ec0facd62b","x":599,"y":29,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\nSometimes it's difficult to maintain local DB alongwith Postgres DB, that leads to asynchronous and data mess","id":"a27098beeae8ebe1","x":599,"y":429,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nOnly one person can work with file at the same time","id":"28a5a9f05e2f2cc5","x":1159,"y":429,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/client data managment(cycles)/new cycles registration.md","id":"d1779ad88eb516cb","x":2118,"y":29,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\n- To add new cycle-house - manual operation are required every time (because of that there's a chance to miss some new cycle-ids).","id":"399d63727d373ef2","x":2118,"y":429,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nmanual check is neccessary\n\n## scripts\nAwsDownloader.py (mode - devices update)\nGoogleDownloader.py (mode - devices update)\nupdater.py (mode - TRANSFER_TYPE.devices_info)","id":"0f7b8a7c8dd13140","x":2678,"y":429,"width":559,"height":400,"color":"5"}
+	],
+	"edges":[]
+}

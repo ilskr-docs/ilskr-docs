@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"file","file":"images/targets preparation/picture/Pasted image 20230418181204.png","id":"830f1d6243d9d170","x":-1713,"y":120,"width":880,"height":431},
+		{"type":"file","file":"images/targets preparation/picture/Pasted image 20230418181218.png","id":"c81c4c28efd1b46c","x":-720,"y":120,"width":739,"height":416},
+		{"type":"text","text":"# PIWFHA generation steps:\n\n1.  enter DOC+manual+slt to db\n    \n2.  generate PIWFA with script:\n    \n\n-   **generate_piwfa.py**\n\nThen we get all for the input :\n\nmanual, DOC, slt and PIWHFA","id":"0224fd839ea32cf9","x":-1680,"y":-320,"width":613,"height":394},
+		{"type":"text","text":"# Full guide for weights\n[https://shy-tuba-747.notion.site/Full-guide-for-weights-d66c80b620ae417eb7981270dcb70536](https://vk.com/away.php?to=https%3A%2F%2Fshy-tuba-747.notion.site%2FFull-guide-for-weights-d66c80b620ae417eb7981270dcb70536&cc_key=)","id":"3c6ef5172477e43d","x":-1053,"y":-320,"width":440,"height":160,"color":"6"}
+	],
+	"edges":[]
+}

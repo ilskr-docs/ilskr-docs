@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"type":"group","id":"d573e2f5a4681c64","x":1560,"y":-280,"width":1320,"height":860,"label":"test , train ,validation separation"},
+		{"type":"group","id":"0f85f5969ec5e610","x":-1243,"y":-1560,"width":1183,"height":940,"label":"data check "},
+		{"type":"group","id":"63efb775b5503f97","x":-1240,"y":-2620,"width":1180,"height":900,"label":"data collection"},
+		{"type":"group","id":"8941c2e6f8778175","x":-1520,"y":-280,"width":1220,"height":860,"label":"filtration"},
+		{"type":"group","id":"1c5eab733f016312","x":40,"y":-280,"width":1220,"height":860,"label":"regularization"},
+		{"type":"group","id":"06fcac5116c5643c","x":-3280,"y":-280,"width":1160,"height":840,"label":"extrapolation"},
+		{"type":"group","id":"f97286fa9936777f","x":-5080,"y":-280,"width":1160,"height":840,"label":"extend with ROLLED"},
+		{"type":"text","text":"# Problems","id":"5d7d4d6f654d9154","x":-1157,"y":-2140,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n## there are 2 modes fast and long\nQuick- for verification\nLong- for learning\n## Skript\n[[collect_dataset.py.canvas]] - configs and script specifications\n## the process is automated","id":"ec1f77983b932d19","x":-597,"y":-2140,"width":517,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/datasets preparation/data collection (from pack of engine results).md","id":"3dd95164331ca9de","x":-1157,"y":-2540,"width":1077,"height":400},
+		{"type":"file","file":"mainblocks/datasets preparation/data check.md","id":"8505484e1062bdc9","x":-1163,"y":-1440,"width":1083,"height":400},
+		{"type":"text","text":"# Problems","id":"b7d92f1860dae836","x":-1163,"y":-1040,"width":542,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n## the process is manual, but fast\n\n## scripts\nUtils/DataManaging/check_module/check_module.py\nis run alongwith collect_dataset.py","id":"c73b507177762a72","x":-621,"y":-1040,"width":541,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/datasets preparation/filtration.md","id":"388426c55c6bae3d","x":-1438,"y":-240,"width":1119,"height":400},
+		{"type":"text","text":"# Problems","id":"ccbdaf6bd2f1ecf8","x":-1439,"y":160,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nthe process is fast and automated\nusually run inside density model training pipeline \n## scripts \nDataGenerators/GNOM/ZBAGE/filter_data.py\n\n","id":"0bf3f200bbc31415","x":-879,"y":160,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/datasets preparation/extrapalation.md","id":"395e2d23feb8c116","x":-3260,"y":-260,"width":1120,"height":400},
+		{"type":"text","text":"#  Peculiarities\nthe process is automated and fast\n\n## scripts\nDataGenerators/GNOM/ZBAGE/extrapolate_data.py","id":"f196fe3938c03edc","x":-2618,"y":140,"width":478,"height":400,"color":"5"},
+		{"type":"text","text":"# Problems\nTo add new specific features new extrapolation approach could be required","id":"68f8a7bcec255bc4","x":-3260,"y":140,"width":642,"height":400,"color":"1"},
+		{"type":"file","file":"mainblocks/datasets preparation/extend with ROLLED.md","id":"3545d9e6ba97e5fa","x":-5060,"y":-250,"width":1119,"height":400},
+		{"type":"text","text":"#  Peculiarities\n\nThe process is automated and long (it take several hours to complete) \n\n## scripts\nDataGenerators/GNOM/ZBAGE/utils/extend_with_rolled.py","id":"d9a26d51b17bc642","x":-4418,"y":150,"width":478,"height":400,"color":"5"},
+		{"type":"text","text":"# Problems\nDate set gets heavier (1GB +) \nMachine limitations (not enough RAM)","id":"2310a6ac11bd69d9","x":-5060,"y":150,"width":642,"height":400,"color":"1"},
+		{"type":"file","file":"mainblocks/datasets preparation/regularization.md","id":"1c557d631b5b163d","x":121,"y":-240,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\nWe don't know how to do multi-feature regularization","id":"93318656d3e776d5","x":120,"y":160,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nfast automated process\nusually run inside density model training pipeline \n## scripts \nDataGenerators/Utils/regularization/add_regularization_points.py","id":"7553e3af7ca089cd","x":680,"y":160,"width":560,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/datasets preparation/test , train ,validation separation.md","id":"e36e27f590361c5b","x":1679,"y":-240,"width":1119,"height":400},
+		{"type":"text","text":"# Problems\n\nWould be great to create smart automatic approach to split dataset on train and test for better training results as human and random separation are not perfect and sometimes not logic enough what can spoil training results","id":"7555e0d24444ccbe","x":1679,"y":160,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\n\nthe process is fast and running inside collect_dataset.py\n","id":"29a34c3007be0a26","x":2239,"y":160,"width":559,"height":400,"color":"5"}
+	],
+	"edges":[
+		{"id":"31181bb80518f1d3","fromNode":"63efb775b5503f97","fromSide":"bottom","toNode":"0f85f5969ec5e610","toSide":"top","label":"data"},
+		{"id":"7476abadd441f099","fromNode":"0f85f5969ec5e610","fromSide":"bottom","toNode":"8941c2e6f8778175","toSide":"top","label":"data"},
+		{"id":"ed35b83965db9b39","fromNode":"0f85f5969ec5e610","fromSide":"bottom","toNode":"1c5eab733f016312","toSide":"top","label":"data"},
+		{"id":"ba38bda484e6485a","fromNode":"0f85f5969ec5e610","fromSide":"bottom","toNode":"d573e2f5a4681c64","toSide":"top","label":"data"},
+		{"id":"aa992e706e564c3d","fromNode":"0f85f5969ec5e610","fromSide":"bottom","toNode":"06fcac5116c5643c","toSide":"top","label":"data"},
+		{"id":"6427f7d3e02cc730","fromNode":"0f85f5969ec5e610","fromSide":"bottom","toNode":"f97286fa9936777f","toSide":"top","label":"data"}
+	]
+}

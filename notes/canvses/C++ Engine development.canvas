@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"group","id":"6aba8c7fe4cf6653","x":460,"y":-220,"width":1199,"height":881,"label":"device and pc engine"},
+		{"type":"group","id":"c356e948d8c93f72","x":-1040,"y":-220,"width":1179,"height":881,"label":"cloud engine"},
+		{"type":"text","text":"# Problems\ncomplex structure\npoor documentation\nIt is very difficult to introduce new people (at least six months)","id":"b241f906a1923d6d","x":519,"y":241,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"# Problems","id":"cfd0f8c9106f82bf","x":-1000,"y":241,"width":560,"height":400,"color":"1"},
+		{"type":"text","text":"#  Peculiarities\nSetting files for engine: 50+\nSetting parameters: 300+ \nPack of libs is required ","id":"6b8bd42670913e0e","x":1079,"y":241,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/C++ engine development/cloud engine.md","id":"7692981b26103e66","x":-1000,"y":-159,"width":1119,"height":400},
+		{"type":"text","text":"#  Peculiarities","id":"78f9a3cb06c775b8","x":-440,"y":241,"width":559,"height":400,"color":"5"},
+		{"type":"file","file":"mainblocks/C++ engine development/device and pc engine.md","id":"7ec2bae387e47f25","x":520,"y":-159,"width":1119,"height":400}
+	],
+	"edges":[]
+}

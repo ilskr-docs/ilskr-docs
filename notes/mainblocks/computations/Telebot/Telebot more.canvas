@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"type":"group","id":"925e13ec6f0ddf1c","x":840,"y":-360,"width":880,"height":900,"label":"Controll of Telebot"},
+		{"type":"group","id":"14d3ec06b69f4387","x":-326,"y":-560,"width":1059,"height":619,"label":"How to set filters and run the script"},
+		{"type":"group","id":"66c15c6932d14ebc","x":260,"y":140,"width":473,"height":476,"label":"Where is Telebot?"},
+		{"type":"group","id":"10ecea72956f6351","x":-280,"y":140,"width":440,"height":287,"label":"Possible functional"},
+		{"type":"text","text":"# Telebot","id":"59212ad396030c84","x":-190,"y":-760,"width":180,"height":60},
+		{"type":"text","text":"You can track how the process specified in the script proceeds in the corresponding bots and in the console for detecting and parsing errors","id":"603ea6ef489a8b27","x":860,"y":-340,"width":518,"height":102},
+		{"type":"file","file":"mainblocks/computations/Telebot/console_info.png","id":"744f3bf9c9796eb5","x":860,"y":220,"width":840,"height":300},
+		{"type":"file","file":"mainblocks/computations/Telebot/Telebot_info.png","id":"236e691211662ef5","x":860,"y":-120,"width":400,"height":288},
+		{"type":"file","file":"mainblocks/computations/Telebot/set_up1.png","id":"7a54a6407306d064","x":-306,"y":-238,"width":399,"height":277},
+		{"type":"text","text":"Click in TeleBot on the drop-down menu —> /add_filter","id":"031f2c80cd1ed276","x":-35,"y":-333,"width":459,"height":62},
+		{"type":"text","text":"to start any of these processes, you need to select the appropriate filters and run the script. After running the script, it can be seen in the script folder and the corresponding file","id":"7e900ae5077eded3","x":-5,"y":-531,"width":400,"height":169},
+		{"type":"file","file":"mainblocks/computations/Telebot/set_up2.png","id":"dc052beef16f6d68","x":313,"y":-245,"width":400,"height":284},
+		{"type":"file","file":"mainblocks/computations/Telebot/Approrpiate Filters.png","id":"66f4e88333087700","x":-260,"y":191,"width":400,"height":216},
+		{"type":"text","text":"\\\\Datasets\\chikens\\MHDR_Chicken\\workdir\\SCENARIO","id":"91d33cd4aa57aae1","x":280,"y":195,"width":433,"height":85},
+		{"type":"file","file":"mainblocks/computations/Telebot/Telebot's where.png","id":"1d3e7d1997223813","x":293,"y":329,"width":420,"height":228}
+	],
+	"edges":[
+		{"id":"1075fe79a222d2c1","fromNode":"7a54a6407306d064","fromSide":"right","toNode":"dc052beef16f6d68","toSide":"left"}
+	]
+}

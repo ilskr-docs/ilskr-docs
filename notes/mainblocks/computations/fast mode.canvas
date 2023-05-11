@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"type":"group","id":"fae2a57f19850000","x":440,"y":-400,"width":669,"height":100,"label":"Results storage"},
+		{"type":"text","text":"# Saving results\n* Running statistics\n* Trend","id":"666f1e534cad50d5","x":1115,"y":44,"width":335,"height":304},
+		{"type":"text","text":"# Rolled postporcessing\n* Shape corrector\n* Density model\n* Statistics filtration\n* Weights estimation","id":"cc3c844b3a424086","x":540,"y":61,"width":301,"height":269},
+		{"type":"text","text":"Rolled","id":"dc8102548a20f4be","x":494,"y":-380,"width":125,"height":54,"color":"4"},
+		{"type":"text","text":"Running statistics","id":"03bf772d66d800c1","x":709,"y":-380,"width":180,"height":60,"color":"5"},
+		{"type":"text","text":"Trend","id":"bb54f0bfbc45bc16","x":989,"y":-380,"width":100,"height":60,"color":"5"}
+	],
+	"edges":[
+		{"id":"57ff0a0218e450b5","fromNode":"cc3c844b3a424086","fromSide":"top","toNode":"dc8102548a20f4be","toSide":"bottom","fromEnd":"arrow","color":"4"},
+		{"id":"683ca24d089e182c","fromNode":"666f1e534cad50d5","fromSide":"top","toNode":"03bf772d66d800c1","toSide":"bottom","color":"5"},
+		{"id":"17ff27ff416d3ba0","fromNode":"666f1e534cad50d5","fromSide":"top","toNode":"bb54f0bfbc45bc16","toSide":"bottom","color":"5"},
+		{"id":"7904a480c6f459d9","fromNode":"cc3c844b3a424086","fromSide":"right","toNode":"666f1e534cad50d5","toSide":"left"}
+	]
+}

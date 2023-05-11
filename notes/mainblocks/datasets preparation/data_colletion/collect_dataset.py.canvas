@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"type":"group","id":"9994aefcdfebfd4f","x":-440,"y":-1720,"width":1173,"height":1020,"label":"Main config"},
+		{"type":"text","text":"Db as a source for up-to-date information and targets\n\n``` py\npostgres_as_src: True  \n# default = True,current info and targets are synchronously retrieved from db\n```\n","id":"2d6eb21f68a6abe9","x":315,"y":-1312,"width":278,"height":292},
+		{"type":"text","text":"Updating aggregated data\n\n\n``` py\nupdate_res_df: False \n# if true, re-explicates and update the aggregated data files\n```\n","id":"cd9d438b39d333b4","x":-7,"y":-1306,"width":250,"height":280},
+		{"type":"text","text":"Filtering cycles/houses in which there are no targets at the moment\n\n``` py\nfilter_by_na: True \n# filter out\n```","id":"4170dc45beffccca","x":329,"y":-980,"width":250,"height":183},
+		{"type":"text","text":"Use only trainable data:\n\n``` py\nonly_usable_for_train: True\n```","id":"93bfc52952a2d6fd","x":-7,"y":-915,"width":250,"height":135},
+		{"type":"text","text":"The script accepts a config as input (which specifies the specifications of the dataset collection, and two other configs - 1. with the specified test data 2. with the specified client parameters and weights)","id":"c7122670d5be2754","x":-83,"y":-400,"width":454,"height":178},
+		{"type":"text","text":"### Configuration of client parameters:\n\nCGTHBG_female_AA: client_settings: client_name: \"CGTHBG\" gender: \"female\" breed_type: \"Arbor Acres\" filter_settings: farms:\n\n-   \"BTG\"\n-   'BF1'\n-   'BF2'\n-   'BF7'\n-   'BFI B farm' breed_types:\n-   \"Arbor Acres\" genders:\n-   \"female\"","id":"f95820b68c989208","x":1000,"y":-980,"width":250,"height":490},
+		{"type":"text","text":"The parameters of the dataset grouping and the configuration of the percentage department for the test:\n\n``` py\nsplitting_params:\n  test_filters_fname: \\\\datasets\\chikens\\MHDR_Chicken\\sources\\datasets\\zbage_datasets\\configs\\test_filters_full_all_last.yaml\n  split_train_test_gb: # dataset grouping parameters\n  - client\n  - breed_type\n  - gender\n  split_ratio: 0.1 # 10 % of the sample when not specialized\n# test filters will go to the test\n  shuffle: False \n```","id":"d3bd714819a2236b","x":-420,"y":-1360,"width":358,"height":460},
+		{"type":"text","text":"Features to collect\n\n``` py\nfeatures_to_collect:\n#- 'mass_corr'\n - 'volume_norm_corr' # default\n#- 'max_axis_norm_corr'\n#- 'height'\n#- 'private_rel - missing_rel'\n#- 'height_norm'\n#- 'height_mean'\n```\n","id":"e06e71dff8248088","x":315,"y":-1660,"width":365,"height":300},
+		{"type":"text","text":"Configs with specialized test and client parameters\n\n``` py\ndataset_config_path: !ref <datasets_global_dir>\\configs\\union_dataset_all_last.yaml\n\ntest_filters_fname: \\\\datasets\\chikens\\MHDR_Chicken\\sources\\datasets\\zbage_datasets\\configs\\test_filters_full_all_last.yaml\n```\n","id":"9eab0869cc578c68","x":-423,"y":-1660,"width":680,"height":250},
+		{"type":"file","file":"mainblocks/datasets preparation/data_colletion/Pasted image 20230426114951.png","id":"afe19b65b54739a1","x":-47,"y":-20,"width":399,"height":144},
+		{"type":"text","text":"## Script Navigation:\n\n- .yaml - find where to register the main config\n- postfix - find where to add something in the name of the dataset![[Pasted image 20230426121108.png]]\n","id":"c187678e06d106d2","x":660,"y":-400,"width":505,"height":524},
+		{"type":"text","text":"## configuration of test filters\n-   clients:\n    -   CGTHBG genders:\n    -   male farms:\n    -   BF7 cycles:\n    -   Cycle 1 houses:\n    -   House 1\n    -   House 8\n-   clients:\n    -   CGTHBG genders:\n    -   male farms:\n    -   BF1 cycles:\n    -   Cycle 1 houses:\n    -   House 34\n    -   House 24\n    -   House 17\n    -   House 13\n    -   House 18","id":"7f00a339c84e5980","x":-840,"y":-980,"width":250,"height":634}
+	],
+	"edges":[
+		{"id":"ff8ec0e73274ed3c","fromNode":"c7122670d5be2754","fromSide":"bottom","toNode":"afe19b65b54739a1","toSide":"top"},
+		{"id":"fbc2ddb176d93a9d","fromNode":"9994aefcdfebfd4f","fromSide":"bottom","toNode":"c7122670d5be2754","toSide":"top"},
+		{"id":"295a1936136d9ba2","fromNode":"7f00a339c84e5980","fromSide":"right","toNode":"c7122670d5be2754","toSide":"top"},
+		{"id":"68c4012f58959feb","fromNode":"f95820b68c989208","fromSide":"left","toNode":"c7122670d5be2754","toSide":"top"},
+		{"id":"032d456b04b2a5d0","fromNode":"c187678e06d106d2","fromSide":"left","toNode":"c7122670d5be2754","toSide":"right"}
+	]
+}

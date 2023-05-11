@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"type":"group","id":"d09de427b47d54d9","x":-3220,"y":-900,"width":1780,"height":4700,"label":"Bad targets"},
+		{"type":"group","id":"7a5c67af8f6dbf54","x":680,"y":-900,"width":1620,"height":1607,"label":"device similarity"},
+		{"type":"group","id":"828e301ccbc2cd29","x":-880,"y":-900,"width":1034,"height":1142,"label":"Volume mass inversion"},
+		{"type":"text","text":"We see the weigh-in, which is out of the total","id":"5ae14dcfab237566","x":-3200,"y":-880,"width":383,"height":102},
+		{"type":"text","text":"# check using the script - \"chec_outlayers\"\nWe see that it does not fight with volyum, who have installed cameras.The output is a butler, you can delete and rebuild the interpolated targets without it","id":"0aa56fe003d3ce08","x":-3115,"y":882,"width":1115,"height":203},
+		{"type":"file","file":"images/Pasted image 20230421175946.png","id":"e9425d09c717f682","x":-3115,"y":1200,"width":1614,"height":755},
+		{"type":"file","file":"images/Pasted image 20230421175435.png","id":"1cbde52563e60e52","x":-3075,"y":-440,"width":1325,"height":1038},
+		{"type":"file","file":"images/Pasted image 20230421180058.png","id":"f67ce5cad2884961","x":-3115,"y":2240,"width":1395,"height":1046},
+		{"type":"text","text":"# Rebuilding targets","id":"1497269537d6a4ed","x":-2760,"y":2040,"width":569,"height":119},
+		{"type":"text","text":"# This check reflects the devices in the same house that report to us the same data, the problem is in one of them - for example:we know that he has low reliability (reliability indicator) in this case, we will exclude this device from training (everything that he reported)","id":"b567eeb9abe4aeb5","x":700,"y":-880,"width":1580,"height":320},
+		{"type":"file","file":"images/Pasted image 20230421173606.png","id":"9b2028cc7cbfb37b","x":720,"y":-483,"width":1560,"height":1170},
+		{"type":"text","text":"# Two graphs - volume, the target of a specific house farm on top of a cloud of all data.Ideally, a particular house should be equally located on both charts. If it is higher on the volume chart, and the target of this house is much lower, this is the volume/mass inversion","id":"149d9f70743ac2ed","x":-860,"y":-880,"width":960,"height":302},
+		{"type":"file","file":"images/Pasted image 20230421174736.png","id":"0941a4ad1da0b8bf","x":-860,"y":-418,"width":994,"height":640}
+	],
+	"edges":[
+		{"id":"f7ac1ff2d7b87501","fromNode":"1cbde52563e60e52","fromSide":"bottom","toNode":"0aa56fe003d3ce08","toSide":"top"},
+		{"id":"3df1a35a12125c14","fromNode":"5ae14dcfab237566","fromSide":"bottom","toNode":"1cbde52563e60e52","toSide":"top"},
+		{"id":"9799565ccddb5cdf","fromNode":"0aa56fe003d3ce08","fromSide":"bottom","toNode":"e9425d09c717f682","toSide":"top"},
+		{"id":"bc68d78218ab0b76","fromNode":"e9425d09c717f682","fromSide":"bottom","toNode":"1497269537d6a4ed","toSide":"top"},
+		{"id":"473a809bb091333f","fromNode":"1497269537d6a4ed","fromSide":"bottom","toNode":"f67ce5cad2884961","toSide":"top"}
+	]
+}

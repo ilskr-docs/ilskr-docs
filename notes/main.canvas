@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"type":"group","id":"5dce2997129020ef","x":-1140,"y":-4860,"width":1260,"height":1393,"color":"1","label":"Data management and analysis"},
+		{"type":"group","id":"8a10f90b5006008b","x":460,"y":-4860,"width":920,"height":1320,"color":"4","label":"Engine development and packing"},
+		{"type":"group","id":"b278b5ce11f086f1","x":-1620,"y":-3140,"width":1740,"height":580,"color":"6","label":"Other models and R&D"},
+		{"type":"group","id":"0ea1d6259424140d","x":860,"y":-3280,"width":940,"height":720,"color":"5","label":"Engine results monitoring"},
+		{"type":"file","file":"lists/Computations(engine run though python).md","id":"ecec04235438a9da","x":880,"y":-4400,"width":480,"height":380,"color":"4"},
+		{"type":"file","file":"lists/C++ Engine development.md","id":"b97302215320deb6","x":640,"y":-4840,"width":400,"height":240,"color":"4"},
+		{"type":"file","file":"lists/Engine release preparation and push.md","id":"4254aa9f75873522","x":480,"y":-3780,"width":400,"height":220,"color":"4"},
+		{"type":"text","text":"1- бысто\n8- средне\nx>8-долго","id":"9be69f088cbf17c5","x":100,"y":-5040,"width":250,"height":102},
+		{"type":"file","file":"lists/Density or Mass models training.md","id":"4827e4a0d2ebf460","x":-300,"y":-3780,"width":400,"height":293,"color":"1"},
+		{"type":"text","text":"#AnnaSosnovskaya\n#AlinaRadaeva\n#PashaKazantsev\n#ElshatAkmaev\n#PavelSkribtsov\n#AnastasiaPshechinko\n#AlexMeldianov\n#AlexDolgopolov\n#foreign","id":"c135dff9684636bc","x":1960,"y":-3542,"width":250,"height":282},
+		{"type":"file","file":"lists/Downloading.md","id":"660630e721614e3e","x":-500,"y":-4380,"width":400,"height":200,"color":"1"},
+		{"type":"file","file":"lists/Engine output monitoring.md","id":"1166156706a4b6b9","x":1380,"y":-3260,"width":400,"height":260,"color":"5"},
+		{"type":"file","file":"lists/client data management.md","id":"e14ba1cda5be5c2e","x":-856,"y":-4840,"width":400,"height":240,"color":"1"},
+		{"type":"file","file":"lists/APP projection model.md","id":"0c040dd54cbfcd3b","x":-300,"y":-3120,"width":400,"height":240,"color":"6"},
+		{"type":"file","file":"lists/Targets preparation.md","id":"f301e62e70eefe39","x":-1120,"y":-4380,"width":400,"height":200,"color":"1"},
+		{"type":"file","file":"lists/Datasets Preparation(work with big data).md","id":"67a05a4985f2c611","x":-1120,"y":-3800,"width":400,"height":313,"color":"1"},
+		{"type":"file","file":"lists/R&D Computer vision and data science.md","id":"0d1d2970421e5ef2","x":-1600,"y":-2880,"width":400,"height":300,"color":"6"},
+		{"type":"file","file":"lists/Device.md","id":"99822ac9efec35bf","x":880,"y":-2860,"width":400,"height":280,"color":"5"}
+	],
+	"edges":[
+		{"id":"160e853163ee5649","fromNode":"e14ba1cda5be5c2e","fromSide":"bottom","toNode":"f301e62e70eefe39","toSide":"top","label":"cycle-houses info"},
+		{"id":"90a1c32512ced204","fromNode":"e14ba1cda5be5c2e","fromSide":"bottom","toNode":"660630e721614e3e","toSide":"top","label":"cycle-houses info"},
+		{"id":"7c063690695e2e9e","fromNode":"f301e62e70eefe39","fromSide":"bottom","toNode":"67a05a4985f2c611","toSide":"top","label":"target weights"},
+		{"id":"39be7ebbc7686789","fromNode":"660630e721614e3e","fromSide":"right","toNode":"ecec04235438a9da","toSide":"left","label":"data from devices (images, explicits, rolled)"},
+		{"id":"bbd97369d545304f","fromNode":"b97302215320deb6","fromSide":"bottom","toNode":"ecec04235438a9da","toSide":"top","label":"exe + setting files"},
+		{"id":"cc97ebbbfda050e2","fromNode":"ecec04235438a9da","fromSide":"bottom","toNode":"1166156706a4b6b9","toSide":"top","label":"engine result (aggregated and row)"},
+		{"id":"2672401e1214ec84","fromNode":"ecec04235438a9da","fromSide":"bottom","toNode":"67a05a4985f2c611","toSide":"top","label":"engine result (aggregated and row)"},
+		{"id":"409e0bec7876225e","fromNode":"67a05a4985f2c611","fromSide":"right","toNode":"4827e4a0d2ebf460","toSide":"left","label":"dataset"},
+		{"id":"645f0467f2359f79","fromNode":"67a05a4985f2c611","fromSide":"right","toNode":"0c040dd54cbfcd3b","toSide":"left","label":"dataset"},
+		{"id":"a2525da2b243cafb","fromNode":"4827e4a0d2ebf460","fromSide":"right","toNode":"4254aa9f75873522","toSide":"left","label":"models modules"},
+		{"id":"38e992fba67aaa74","fromNode":"4254aa9f75873522","fromSide":"top","toNode":"ecec04235438a9da","toSide":"left","label":"pc engine release"},
+		{"id":"662e2c1ebef2b515","fromNode":"4254aa9f75873522","fromSide":"bottom","toNode":"99822ac9efec35bf","toSide":"top","label":"device engine release"}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"type":"group","id":"f99e02e12bd6ee9e","x":311,"y":-200,"width":1469,"height":100,"label":"Results storage"},
+		{"type":"text","text":"","id":"c4a9b49bfd5ed779","x":-125,"y":-30,"width":250,"height":60},
+		{"type":"text","text":"image storege","id":"2de7b2aef99c12f9","x":-125,"y":-30,"width":250,"height":60},
+		{"type":"text","text":"Image Quality","id":"b1825bef8d9d723f","x":331,"y":-180,"width":160,"height":54,"color":"5"},
+		{"type":"text","text":"Markup","id":"30e85de6d56b1915","x":554,"y":-180,"width":125,"height":60,"color":"5"},
+		{"type":"text","text":"Masks","id":"cc485ee845d1a8fc","x":740,"y":-180,"width":125,"height":60,"color":"5"},
+		{"type":"text","text":"Explicit","id":"2964f890ab744a69","x":940,"y":-180,"width":120,"height":54,"color":"5"},
+		{"type":"text","text":"Rolled","id":"93a0e1ad371f0b54","x":1165,"y":-180,"width":125,"height":54,"color":"5"},
+		{"type":"text","text":"Running statistics","id":"4aec6380e2d2930a","x":1380,"y":-180,"width":180,"height":60,"color":"5"},
+		{"type":"text","text":"Trend","id":"e6798d81f81425cb","x":1660,"y":-180,"width":100,"height":60,"color":"5"},
+		{"type":"text","text":"## Read images\n* Image checking","id":"b17646ce238d4cef","x":-16,"y":231,"width":250,"height":149},
+		{"type":"text","text":"#  Image processing(step 1)\n\n* Depth detectors\n* ROI Filtration\n* Creating ovals\n* Removing bad masks\n* Geometry filtration\n* Precomputed","id":"4497828e6c63d47d","x":411,"y":231,"width":369,"height":309},
+		{"type":"text","text":"# Image processing(step 2)\n\n* Feature calculation (using ovals and masks) in cm\n* Distance model\n* Shape corrector model\n* Dnsity model\n* Statistikcs filtration\n","id":"03fa33b3f356ac7b","x":880,"y":231,"width":425,"height":269},
+		{"type":"text","text":"# Tracking","id":"6bdcaf5b6503e5c1","x":1435,"y":231,"width":225,"height":269},
+		{"type":"text","text":"# Rolled postporcessing\n* Shape corrector\n* Density model\n* Statistics filtration\n* Weights estimation","id":"0f1258bbc11ea517","x":1900,"y":231,"width":301,"height":269},
+		{"type":"text","text":"# Saving results\n* Running statistics\n* Trend","id":"d796ce957ddbcfc9","x":2440,"y":214,"width":335,"height":304}
+	],
+	"edges":[
+		{"id":"1996f451c105cfe4","fromNode":"2de7b2aef99c12f9","fromSide":"bottom","toNode":"b17646ce238d4cef","toSide":"top","color":"4"},
+		{"id":"c8790eaa5103f9ba","fromNode":"b17646ce238d4cef","fromSide":"right","toNode":"b1825bef8d9d723f","toSide":"bottom","color":"5"},
+		{"id":"68716dd436fbca62","fromNode":"b17646ce238d4cef","fromSide":"right","toNode":"4497828e6c63d47d","toSide":"left"},
+		{"id":"c20ab2693efa9d40","fromNode":"4497828e6c63d47d","fromSide":"top","toNode":"30e85de6d56b1915","toSide":"bottom","color":"5"},
+		{"id":"203898f9fb9137f9","fromNode":"4497828e6c63d47d","fromSide":"top","toNode":"cc485ee845d1a8fc","toSide":"bottom","color":"5"},
+		{"id":"00198838dc3b7280","fromNode":"4497828e6c63d47d","fromSide":"right","toNode":"03fa33b3f356ac7b","toSide":"left"},
+		{"id":"4a84917684043d61","fromNode":"03fa33b3f356ac7b","fromSide":"top","toNode":"2964f890ab744a69","toSide":"bottom","color":"5"},
+		{"id":"37d55e735e56b471","fromNode":"03fa33b3f356ac7b","fromSide":"right","toNode":"6bdcaf5b6503e5c1","toSide":"left"},
+		{"id":"31deb9804b701367","fromNode":"0f1258bbc11ea517","fromSide":"top","toNode":"93a0e1ad371f0b54","toSide":"bottom","color":"5"},
+		{"id":"b5381a2ebaf6be47","fromNode":"6bdcaf5b6503e5c1","fromSide":"right","toNode":"0f1258bbc11ea517","toSide":"left"},
+		{"id":"597dd66e55064761","fromNode":"0f1258bbc11ea517","fromSide":"right","toNode":"d796ce957ddbcfc9","toSide":"left"},
+		{"id":"6e8167728840cb43","fromNode":"d796ce957ddbcfc9","fromSide":"top","toNode":"4aec6380e2d2930a","toSide":"bottom","color":"5"},
+		{"id":"86c96b0433c73940","fromNode":"d796ce957ddbcfc9","fromSide":"top","toNode":"e6798d81f81425cb","toSide":"bottom","color":"5"}
+	]
+}
